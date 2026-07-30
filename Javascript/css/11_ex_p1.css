@@ -1,0 +1,40 @@
+body{
+    border: none;
+    margin: 0;
+    font-family: Arial;
+}
+.output_11o{
+    display: grid;
+    grid-template-columns: 20rem 5rem;
+    column-gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+.input{
+    height: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgba(34, 177, 129, 0.514);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.search, .btn{
+    height: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgba(37, 173, 10, 0.925);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-bottom-right-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.btn{
+    margin-left: 3rem;
+    border-bottom-left-radius: .5rem;
+}
+p{
+    text-align: center;
+}
